@@ -4,6 +4,10 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiEclipseide,
+  SiArduino,
+  SiFigma,
+  SiFlutter,
+  SiIntellijidea
 } from "react-icons/si";
 import { FaWindows } from "react-icons/fa";
 
@@ -21,6 +25,18 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiArduino />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
       </Col>
     </Row>
   );
