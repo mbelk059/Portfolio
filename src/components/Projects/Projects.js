@@ -71,7 +71,7 @@ function Projects() {
               imgPath={livesite}
               isBlog={false}
               title="uOttaHack 2025 Live Site"
-              description="."
+              description="A dynamic React-based site providing real-time event details for uOttaHack7 participants, including schedules, challenges, and workshops."
               ghLink="https://github.com/uOttaHack/2025-live-site"
               demoLink="https://live.uottahack.ca/" 
             />
@@ -102,7 +102,7 @@ function Projects() {
               imgPath={travel}
               isBlog={false}
               title="Travel With Us"
-              description="."
+              description="A Travel booking website I made for a UI course to better my design and JS skills."
               ghLink="https://github.com/mbelk059/Travel-With-Us-2"
               demoLink="https://mbelk059.github.io/Travel-With-Us-2/"
             />
