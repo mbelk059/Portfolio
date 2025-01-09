@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate
@@ -29,7 +29,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/Portfolio"> {/* Add basename here */}
+    <Router> 
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
