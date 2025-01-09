@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import chatify from "../../Assets/Projects/chatify.png";
 import livesite from "../../Assets/Projects/livesite.png";
 import emotion from "../../Assets/image.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import bunnygame from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import ucollab from "../../Assets/Projects/ucollab.png";
-import bunnygame from "../../Assets/Projects/bunnygame.png";
 import object from "../../Assets/Projects/objectdetect.png";
 import insuwell from "../../Assets/Projects/insuwell.png";
 
@@ -28,7 +28,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="uoCourses"
-              description="."
+              description="An AI-powered assistant to help uOttawa students make quick decisions on which courses to take based on their goals."
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
@@ -95,17 +95,6 @@ function Projects() {
               title="The Hidden Farm Village"
               description="A cozy farming game built with Pygame."
               ghLink="https://github.com/mbelk059/The-Hidden-Farm-Village"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Notes App"
-              description="Minimal notes app made with Isar database."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
