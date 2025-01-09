@@ -2,14 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
 import livesite from "../../Assets/Projects/livesite.png";
 import emotion from "../../Assets/image.png";
-import bunnygame from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import bunnygame from "../../Assets/Projects/bunnygame.png";
+import weather from "../../Assets/Projects/weather.png";
 import ucollab from "../../Assets/Projects/ucollab.png";
 import object from "../../Assets/Projects/objectdetect.png";
 import insuwell from "../../Assets/Projects/insuwell.png";
+import travel from "../../Assets/Projects/travelwithus.png";
 
 function Projects() {
   return (
@@ -20,17 +20,17 @@ function Projects() {
           My <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on.
+          Here are a few projects I've worked on⚙️
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={ucollab}
               isBlog={false}
               title="uoCourses"
               description="An AI-powered assistant to help uOttawa students make quick decisions on which courses to take based on their goals."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              ghLink="https://github.com/mbelk059/uoCourses"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -79,12 +79,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={weather}
               isBlog={false}
               title="Weather App"
               description="A simple weather app I made to learn flutter app development."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              ghLink="https://github.com/mbelk059/weather-app"
             />
           </Col>
 
@@ -100,7 +99,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={travel}
               isBlog={false}
               title="Travel With Us"
               description="."

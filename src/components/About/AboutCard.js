@@ -8,8 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi! I'm <span className="purple">Maryam</span>,
-            a Software Engineering undergraduate student at uOttawa with a <span className="purple">passion</span> for building
+            I'm a Software Engineering undergraduate student at uOttawa with a <span className="purple">passion</span> for building
             impactful and innovative solutions.
             <br />
             Currently, I’m focused on <span className="purple">web development, AI,</span> and experimenting with <span className="purple">Arduino</span> to develop smarter, more interactive systems.
