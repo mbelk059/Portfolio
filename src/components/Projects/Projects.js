@@ -10,6 +10,7 @@ import ucollab from "../../Assets/Projects/ucollab.png";
 import object from "../../Assets/Projects/objectdetect.png";
 import insuwell from "../../Assets/Projects/insuwell.png";
 import travel from "../../Assets/Projects/travelwithus.png";
+import courses from "../../Assets/Projects/image.png";
 
 function Projects() {
   return (
@@ -25,7 +26,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ucollab}
+              imgPath={courses}
               isBlog={false}
               title="uoCourses"
               description="An AI-powered assistant to help uOttawa students make quick decisions on which courses to take based on their goals."
